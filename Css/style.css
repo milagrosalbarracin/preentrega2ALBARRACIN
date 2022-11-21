@@ -1,0 +1,538 @@
+/*reset*/
+
+*{ 
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilos body*/
+
+body{
+    font-family: sans-serif;
+    background-color: #efb810 ;
+}
+
+/*estilos para header*/
+
+.header{
+    background-color: #efb810 ;
+    height: 15vh;
+    display:flex;
+    border-bottom: 1px solid black;
+}
+
+.header .header__h1{
+    color: black;
+    background-color: whitesmoke;
+    font-size: 30px;
+    padding: 8px;
+    margin: 24px 25px;
+    border: 2px solid black;
+    width: 30%;
+    text-align: center;
+}
+
+.header .contenedor__navbar{
+    display: flex;
+    justify-content: end;
+    width: 70%;
+}
+
+.nav-item a{
+    margin: 0 15px;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: white;
+}
+
+
+/*estilos para main*/
+
+.main{
+    background-color: #d9ad26;
+    height: 80%;
+    padding: 1% 0;
+}
+
+.main .main__div{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 15%;
+    border-radius: 10px;
+}
+
+.main .main__div .main__h2{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    margin: .2rem 0 0 0;
+}
+
+.main__div-contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 1% 0 0 0; 
+}
+
+.main_contenedor-descripcion{
+    display: flex;
+    margin: 0 1%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: solid 1px black;
+    border-radius: 10px;
+
+}
+
+
+
+.main__div-h3{
+    margin: .3rem 0 0 0;
+    font-size: 1.5rem;
+}
+.main__div-p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.main__contenedor-img{
+    border: solid 1px black;
+    margin: 0 1%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.main__div-img{
+    width: 100%;
+    height: 100%;
+    background: violet;
+}
+
+.main__div-img img{
+    width: 100%;
+    height: 100%;
+}
+.contenedor_img-oferta{
+    height: 70vh;
+}
+
+/*estilos para section*/
+.section{
+    height: 60vh;
+    padding: 1% 0;
+    background-color: #d9ad26; 
+}
+
+.section_contenedor{
+    width: 70%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15%;
+    border-radius: 10px;
+}
+.section_contenedor-mujeres{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0 0 0 3%;
+    border-radius: 10px;
+}
+
+.section_contenedor .section__titulo h3,h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin:  .2rem 0 0 0 ;
+}
+.section_contenedor .section__titulo-mujeres{
+    display: flex;
+    justify-content: start;
+}
+
+.section .section__contenedor-cajas{
+    height: 85%;
+}
+
+.section__contenedor-cajas .section__cajas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 1% 0;
+}
+
+.section__cajas-nombre{
+    width: 20%;
+    height: 80%;
+    margin: 0 2.5%;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid black;
+}
+
+.section__cajas-nombre .section__contenedor-img{
+    height: 80%;
+    border-radius: 10px 10px 0 0;
+}
+
+.section__cajas-nombre .section__contenedor-img img{
+    height: 100%;
+    width: 100%;
+    padding: 3%;
+    border-radius: 20px;
+}
+
+.section__cajas-nombre .section__contenedor-prenda{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.section__cajas-nombre .section__contenedor-prenda h4{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    margin: .2rem 0 0 0
+}
+
+.section .section__cajas-historia{
+    width: 45%;
+    height: 100%;
+    margin: 2.5%;
+    border-radius: 10px;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.section .section__cajas-historia img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+
+
+/*estilos footer*/
+.footer{
+    border-top: 2px solid black;
+    background-color: #d9ad26;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .3rem 0 0 0;
+}
+
+/*estilos formulario*/
+
+.main__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background-color: #d9ad26;
+}
+
+.main__form .contenedor__form{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.main__form .contenedor__form form{
+    width: 80%;
+}
+
+/*estilos productos*/
+
+.ropamujer{
+    display: flex;
+}
+.ropahombre{
+    display: flex;
+}
+
+.productos{
+    width: 33.3%;
+    height: 500px;
+}
+
+.productos img{
+    width: 100%;
+    height: 90%;
+}
+
+
+
+/*estilos para responsive "sobre nosotros"*/
+
+/*estilos header*/
+.header-responsive{
+    background-color: #efb810 ;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: start;
+}
+
+.header-responsive .header__h1-responsive{
+    display: none;
+}
+
+/*estilos main*/
+
+.main-responsive{
+    background-color: #efb810 ;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-responsive .main__div-responsive{
+    margin: 2%;
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+.main__contenedor-responsive{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_descripcion-responsive .main__p-responsive{
+    text-align: center;
+    border: solid 1px black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.main__contenedor-img-responsive{
+    height: 30vh;
+}
+
+.main__contenedor-img-responsive .main__img-responsive{
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px black;
+}
+
+.main__contenedor-img-responsive .main__img-responsive img{
+    width: 100%;
+    height: 100%;
+}
+
+/*estilos section*/
+
+.section-responsive{
+    background-color: #efb810 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.section__contenedor-responsive{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-responsive .section__div-responsive{
+    margin: 2%;
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+.section__contenedor-img-responsive .section__img-responsive{
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px black;
+}
+
+.section__contenedor-img-responsive .section__img-responsive img{
+    width: 100%;
+    height: 100%;
+}
+.section_descripcion-responsive{
+    margin: 10px;
+}
+
+.section_descripcion-responsive .section__p-responsive{
+    text-align: center;
+    border: solid 1px black;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*estilos para responsive "descuentos"*/
+
+.main__contenedor-reponsive{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__contenedor-reponsive .main__descuentos{
+    height: 50vh;
+    margin: 10px;
+    border: solid 1px black;
+}
+.main__descuentos img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+
+/*media query*/
+
+@media screen and (min-width:1024px){
+    body{
+        background-color: #efb810 ;
+    }
+
+    /*estilos para sobre nosotros*/
+
+    /*header*/
+
+    .header-responsive{
+        background-color: #efb810 ;
+        display: flex;
+        flex-direction: row;
+    }
+    .header-responsive .header__h1-responsive{
+        display: block;
+        color: black;
+        background-color: whitesmoke;
+        font-size: 30px;
+        padding: 8px;
+        margin: 24px 25px;
+        border: 2px solid black;
+        width: 30%;
+        text-align: center;
+    }
+
+    .header-responsive .contenedor__navbar-responsive{
+        display: flex;
+        justify-content: end;
+        width: 70%;
+        margin: 20px 0;
+    }
+
+    /*main*/
+
+    .main__contenedor-responsive{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .main__contenedor-responsive .main_descripcion-responsive{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+    }
+    .main_descripcion-responsive{
+        height: 100%;
+    }
+
+    .main_descripcion-responsive .main__p-responsive{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .main__contenedor-img-responsive{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+    }
+
+    /*section*/
+    .section__contenedor-responsive{
+        background-color: #efb810 ;
+        display: flex;
+        flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       height: 60vh;
+    }
+
+    .section__contenedor-img-responsive{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section__contenedor-img-responsive .section__img-responsive img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .section_descripcion-responsive{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section_descripcion-responsive .section__p-responsive{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    /*estilos para descuentos*/
+
+    .main__contenedor-reponsive{
+        display: grid;
+        grid-template-columns: repeat(2,1fr); 
+        height: 70vh;
+    }
+    .main__contenedor-reponsive .main__descuentos{
+        height: 80%;
+        margin: 5%;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
